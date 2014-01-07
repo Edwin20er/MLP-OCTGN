@@ -2,6 +2,12 @@
 <set name="Premiere" id="137511d8-0942-4075-8000-24fa4395c6ea" gameId="65656467-b709-43b2-a5c6-80c2f216adf9" gameVersion="3.1.0.0" version="3.1">
  <markers>
   <marker id="ec99fdcb-ffea-4658-8e8f-5dc06e93f6fd" name="action" />
+  <marker id="0c13bb29-d1c7-4997-b74c-ab139209f30c" name="Applejack_home" />
+  <marker id="a7fa9745-2fd5-4c87-a479-beecb0ff3629" name="Fluttershy_home" />
+  <marker id="7ea27d90-6d93-4052-8000-954180a5b4f4" name="Rarity_home" />
+  <marker id="80f33756-8853-4b69-ae7a-ee231f737cd5" name="RainbowDash_home" />
+  <marker id="56420356-45da-419a-b2bf-fa18cbfde166" name="PinkiePie_home" />
+  <marker id="11f19b77-042f-4159-9784-d6d38f6528cf" name="TwilightSparkle_home" />
  </markers>
  <cards>
   <card id="5ff3e6bf-84fb-4387-8931-cfd18710c93c" name="Rainbow Dash">
@@ -194,7 +200,7 @@
 	   <property name="PlayRequiredElement" value="" />
 	   <property name="Traits" value="Unicorn" />
 	   <property name="Keywords" value="Home Limit 4, Inspired." />
-	   <property name="Text" value="Your opponet must pay +1 to move a character to this card's Problem." />
+	   <property name="Text" value="Your opponent must pay +1 to move a character to this card's Problem." />
 	   <property name="ProblemBonus" value="" />
 	   <property name="ProblemOpponentPower" value="" />
 	   <property name="ProblemPlayerElement1" value="" />
@@ -1731,7 +1737,7 @@
    <property name="Subname" value="Warbler" />
    <property name="Power" value="2" />
    <property name="Cost" value="2" />
-   <property name="PlayRequiredPower" value="" />
+   <property name="PlayRequiredPower" value="0" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Critter" />
    <property name="Keywords" value="" />
@@ -1811,7 +1817,7 @@
    <property name="Subname" value="Novice Assistant" />
    <property name="Power" value="0" />
    <property name="Cost" value="1" />
-   <property name="PlayRequiredPower" value="" />
+   <property name="PlayRequiredPower" value="0" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Critter" />
    <property name="Keywords" value="" />
@@ -1831,7 +1837,7 @@
    <property name="Subname" value="Little Pipsqueak" />
    <property name="Power" value="1" />
    <property name="Cost" value="1" />
-   <property name="PlayRequiredPower" value="" />
+   <property name="PlayRequiredPower" value="0" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Critter" />
    <property name="Keywords" value="" />
@@ -1951,7 +1957,7 @@
    <property name="Subname" value="Curtain Shredder" />
    <property name="Power" value="1" />
    <property name="Cost" value="2" />
-   <property name="PlayRequiredPower" value="" />
+   <property name="PlayRequiredPower" value="0" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Critter" />
    <property name="Keywords" value="" />
@@ -1991,7 +1997,7 @@
    <property name="Subname" value="On the Scent" />
    <property name="Power" value="1" />
    <property name="Cost" value="1" />
-   <property name="PlayRequiredPower" value="" />
+   <property name="PlayRequiredPower" value="0" />
    <property name="PlayRequiredElement" value="" />
    <property name="Traits" value="Critter" />
    <property name="Keywords" value="" />

@@ -3,7 +3,7 @@
 <game name="My Little Pony - CCG" 
 	id="65656467-b709-43b2-a5c6-80c2f216adf9" 
 	octgnVersion="3.1.0.0" 
-	version="2.1.0.2" 
+	version="2.1.0.1" 
 	markersize="16"
 	tags="My Little Pony MLP CCG" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -17,6 +17,7 @@
 	<scripts>
 		<script src="scripts/actions.py" />
 		<script src="scripts/events.py" />
+		<script src="scripts/card_actions.py" />
 	</scripts>
 	
    	<events>
@@ -58,6 +59,7 @@
 		<property name="Rarity" type="String" />
 	</card>
 	
+
 	<table name="Table" visibility="undefined" ordered="False" width="960" height="540" background="background/background.jpg" backgroundStyle="uniformToFill">
 		<groupaction menu="Game Setup." shortcut="F12" execute="setup" />
 
@@ -103,10 +105,16 @@
 	
 	</table>
 	
-	<player summary=" Points: {#Points} / Action Tokens: {#Actions}">
+	<player summary=" Points: {#Points} / Action Tokens: {#Actions} / Generosity: {#Generosity} / Honesty: {#Honesty} / Kindness: {#Kindness} / Laughter: {#Laughter} / Loyalty:{#Loyalty} / Magic: {#Magic} ">
 		<counter name="Points" default="0" icon="counters/Points.png"  />
 		<counter name="Actions" default="0" icon="counters/Action_Marker.png" />
-		
+		<counter name="Generosity" default="0" icon="proxy/proxyImages/generalIcons/Generosity_Symbol.png" />
+		<counter name="Honesty" default="0" icon="proxy/proxyImages/generalIcons/Honesty_Symbol.png" />
+		<counter name="Kindness" default="0" icon="proxy/proxyImages/generalIcons/Kindness_Symbol.png" />
+		<counter name="Laughter" default="0" icon="proxy/proxyImages/generalIcons/Laughter_Symbol.png" />
+		<counter name="Loyalty" default="0" icon="proxy/proxyImages/generalIcons/Generosity_Symbol.png" />
+		<counter name="Magic" default="0" icon="proxy/proxyImages/generalIcons/Magic_Symbol.png" /> 
+ 
 		<hand name="Hand" visibility="me" ordered="False" width="63" height="88" icon="groups/hand.png">            
 			<groupaction menu="Random Discard" shortcut="ALT+D" execute="randomDiscard" />
 			<groupaction menu="Random Discard Many" shortcut="ALT+SHIFT+D" execute="discardMany" />
@@ -132,6 +140,7 @@
 		
 		<group name="Banished Pile" visibility="all" width="63" height="88" icon="groups/banished.png">      
 		</group>
+
 
 	</player>
 	

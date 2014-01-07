@@ -279,6 +279,44 @@
 		</textblocks>
 	</template>
 	
+	<!-- Home Card Template -->
+	<template src="proxy/proxyImages/cardTemplates/CardOutline.png" default="False">
+		<matches>
+			<match name="Type" value="Home" />
+		</matches>
+		
+		<overlayblocks>
+			
+		<!-- Element power selection -->
+		<conditional>
+			<if property="Element" contains="Generosity">
+				<link block="powerGenerosity" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Element" contains="Kindness">
+				<link block="powerKindness" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Element" contains="Honesty">
+				<link block="powerHonesty" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Element" contains="Magic">
+				<link block="powerMagic" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Element" contains="Laughter">
+				<link block="powerLaughter" /> </if>
+		</conditional>
+		<conditional>
+			<if property="Element" contains="Loyalty">
+				<link block="powerLoyalty" /> </if>
+		</conditional>
+		</overlayblocks>
+	</template>
+	
+
+
 	<!-- Event Card template -->
 	<template src="proxy/proxyImages/cardTemplates/Event_Template.png" default="False">
 		<matches>
