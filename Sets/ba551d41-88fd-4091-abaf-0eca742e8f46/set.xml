@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Markers" id="ba551d41-88fd-4091-abaf-0eca742e8f46" gameId="65656467-b709-43b2-a5c6-80c2f216adf9" gameVersion="3.1.0.0" version="3.1">
+ <markers>
+ </markers>
+ <cards>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Premiere" id="137511d8-0942-4075-8000-24fa4395c6ea" gameId="65656467-b709-43b2-a5c6-80c2f216adf9" gameVersion="3.1.0.0" version="3.1">
+ <markers>
+  <marker id="ec99fdcb-ffea-4658-8e8f-5dc06e93f6fd" name="action" />
+ </markers>
+ <cards>
+  <card id="0c13bb29-d1c7-4997-b74c-ab139209f30c" name="Applejack_home">
+   <property name="Type" value="Home" />
+   <property name="Element" value="Honesty" />
+  </card> 
+  <card id="a7fa9745-2fd5-4c87-a479-beecb0ff3629" name="Fluttershy_home">
+   <property name="Type" value="Home" />
+   <property name="Element" value="Kindness" />
+  </card>
+  <card id="7ea27d90-6d93-4052-8000-954180a5b4f4" name="Rarity_home">
+   <property name="Type" value="Home" />
+   <property name="Element" value="Generosity" />
+  </card>
+  <card id="80f33756-8853-4b69-ae7a-ee231f737cd5" name="RainbowDash_home">
+   <property name="Element" value="Loyalty" />
+   <property name="Type" value="Home" />
+  </card>
+  <card id="56420356-45da-419a-b2bf-fa18cbfde166" name="PinkiePie_home">
+   <property name="Type" value="Home" />
+   <property name="Element" value="Laughter" />
+  </card>
+  <card id="11f19b77-042f-4159-9784-d6d38f6528cf" name="TwilightSparkle_home">
+   <property name="Type" value="Home" />
+   <property name="Element" value="Magic" />
+  </card>
+ </cards>
+</set>
